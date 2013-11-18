@@ -1,0 +1,109 @@
+Running Perceptron Training Algorithm...
+11 total iterations. 447 total updates.
+
+Running Perceptron Testing Algorithm on Training Set...
+0/4000 emails misclassified, 0.0% test error
+
+Running Perceptron Testing Algorithm on Validation Set...
+20/1000 emails misclassified, 2.0% test error
+
+Top 15 Words with the most Positive Weights:
+sight: 19
+our: 17
+remov: 16
+yourself: 16
+these: 15
+click: 15
+pleas: 15
+nbsp: 15
+market: 15
+guarante: 15
+your: 14
+present: 14
+ever: 14
+deathtospamdeathtospamdeathtospam: 14
+am: 13
+
+Top 15 Words with the most Negative Weights:
+but: -15
+wrote: -15
+prefer: -15
+and: -14
+i: -13
+reserv: -13
+on: -12
+still: -12
+technolog: -12
+sinc: -11
+copyright: -11
+url: -11
+instead: -11
+upgrad: -11
+recipi: -11
+
+Running Averaged Perceptron Algorithm...
+11 total iterations. 447 total updates.
+
+Running Averaged Perceptron Testing Algorithm on Training Set...
+17/4000 emails misclassified, 0.42500000000000004% test error
+
+Running Averaged Perceptron Testing Algorithm on Validation Set...
+19/1000 emails misclassified, 1.9% test error
+
+Running Perception Algorithm on Different Amounts of Training Data
+N=100: 6 total iterations. 32 total updates.
+N=200: 3 total iterations. 39 total updates.
+N=400: 6 total iterations. 84 total updates.
+N=800: 5 total iterations. 111 total updates.
+N=2000: 11 total iterations. 259 total updates.
+N=4000: 11 total iterations. 447 total updates.
+
+Running Perceptron Testing Algorithms on Validation Set...
+N=100: 76/1000 emails misclassified, 7.6% test error
+N=200: 74/1000 emails misclassified, 7.3999999999999995% test error
+N=400: 41/1000 emails misclassified, 4.1000000000000005% test error
+N=800: 26/1000 emails misclassified, 2.6% test error
+N=2000: 24/1000 emails misclassified, 2.4% test error
+N=4000: 20/1000 emails misclassified, 2.0% test error
+
+Running Averaged Perception Algorithm on Different Amounts of Training Data
+N=100: 6 total iterations. 32 total updates.
+N=200: 3 total iterations. 39 total updates.
+N=400: 6 total iterations. 84 total updates.
+N=800: 5 total iterations. 111 total updates.
+N=2000: 11 total iterations. 259 total updates.
+N=4000: 11 total iterations. 447 total updates.
+
+Running Averaged Perceptron Testing Algorithms on Validation Set...
+N=100: 83/1000 emails misclassified, 8.3% test error
+N=200: 67/1000 emails misclassified, 6.7% test error
+N=400: 42/1000 emails misclassified, 4.2% test error
+N=800: 31/1000 emails misclassified, 3.1% test error
+N=2000: 20/1000 emails misclassified, 2.0% test error
+N=4000: 19/1000 emails misclassified, 1.9% test error
+
+Running Customized Perceptron Algorithms on Training Data
+4 total iterations. 393 total updates.
+5 total iterations. 408 total updates.
+6 total iterations. 413 total updates.
+4 total iterations. 393 total updates.
+5 total iterations. 408 total updates.
+6 total iterations. 413 total updates.
+
+Testing Customized Perceptron Algorithms on Validation Set
+Iteration Limit = 4, Averaged: 21/1000 emails misclassified, 2.1% test error
+Iteration Limit = 5, Averaged: 20/1000 emails misclassified, 2.0% test error
+Iteration Limit = 6, Averaged: 20/1000 emails misclassified, 2.0% test error
+Iteration Limit = 4, Not Averaged: 18/1000 emails misclassified, 1.7999999999999998% test error
+Iteration Limit = 5, Not Averaged: 27/1000 emails misclassified, 2.7% test error
+Iteration Limit = 6, Not Averaged: 24/1000 emails misclassified, 2.4% test error
+
+Testing Regular Perceptron Algorithm on Test Set
+21/1000 emails misclassified, 2.1% test error
+
+Testing Averaged Perceptron Algorithm on Test Set
+21/1000 emails misclassified, 2.1% test error
+
+Testing Best Customized Perceptron Algorithm on Test Set
+20/1000 emails misclassified, 2.0% test error
+
